@@ -1,6 +1,6 @@
 # Executando-Git-Bash
 
-Resumo explicativo: 
+Video explicativo: https://youtu.be/aT-CZ8opw60
 
 # Primeiros Passos
 - git config --global user.name “Nome”;
@@ -36,13 +36,13 @@ Resumo explicativo:
 # Vim (Editor de Texto)
 - ESC = menu;
   - I = Abre a edição;
-		- Selecionar = Copia o texto;
+	- Selecionar = Copia o texto;
     - Apertar Scroll = Cola o texto;
   - V = Visual;
   - : = Console do vim;
-    - :/ = Pesquisar palavras no console;
-	  - :wq = Salva o arquivo e fecha;
-	  - :q! = sair sem salvar;
+    	- :/ = Pesquisar palavras no console;
+  	- :wq = Salva o arquivo e fecha;
+	- :q! = sair sem salvar;
 
 # Commits
 - git add = Adiciona ao container;
@@ -82,7 +82,11 @@ Resumo explicativo:
 
 # Referências
 Professor José de Assis - https://youtu.be/_mB-TShMDvY
+
 Git - https://git-scm.com/docs/git#Documentation/git.txt---help
+
 Stack Overflow - https://pt.stackoverflow.com/questions/528332/o-que-%C3%A9-head-no-git#:~:text=O%20HEAD%20no%20Git%20uma,ou%20a%20%C3%BAltima%20confirma%C3%A7%C3%A3o%20registrada.
+
 Influentech - https://youtu.be/EscyTZSaHXA
+
 Future Cloud - https://youtu.be/seXngk2dJr8
