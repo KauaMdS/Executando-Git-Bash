@@ -94,7 +94,7 @@ Video explicativo: https://youtu.be/aT-CZ8opw60
     • git clone = Clonar um repositório;
 
 ### Comandos Auxiliares
-'comando' --help = Mostra o que pode ser feito com o comando vinculado;
+    • 'comando' --help = Mostra o que pode ser feito com o comando vinculado;
 
 ### Grafo de Commits
 
