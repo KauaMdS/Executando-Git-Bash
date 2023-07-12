@@ -20,7 +20,7 @@ Video explicativo: https://youtu.be/aT-CZ8opw60
     •  * ou . = Símbolo que seleciona tudo;
     •  pwd = Mostra o caminho até aquele local;
     •  ls ou ll = Mostra tudo que tem na pasta;
-    •  cd referência = Acessa a pasta que foi referenciada;
+    •  cd referência = Acessa a pasta referenciada;
     •  cd = Volta até a pasta de usuário do pc;
     •  cd ../ = Volta para a pasta anterior;
     •  ls -a = Mostra o diretório oculto de seu repositório;
@@ -35,18 +35,18 @@ Video explicativo: https://youtu.be/aT-CZ8opw60
     
 ### Exibição
 
-    • git status = Mostra as mudanças que foram feitas;
+    • git status = Mostra as mudanças feitas;
     • git diff = Mostra as mudanças detalhadas que foram feitas;
     • git log = panorama dos commits;
     • git log --oneline = panorama dos commits resumido;
 
 ### Nano(Editor de texto)
 
-	•  nano nome-do-arquivo-tipo
+	•  nano nome-do-arquivo-tipo;
  
 ### Vim (Editor de Texto)
 
-	•  vim nome-do-arquivo-tipo
+	•  vim nome-do-arquivo-tipo;
     •  ESC = menu;
         •  I = Abre a edição;
             •  selecionar = Copiar o texto;
@@ -81,6 +81,7 @@ Video explicativo: https://youtu.be/aT-CZ8opw60
     • git reset HEAD = Retira todos os arquivos/mudanças postagens no “container”;
     • git checkout nome-arquivo = Retira mudanças no arquivo, com base no último commit feito, se essas alterações não estiverem no “container”;
     • git reset --hard 'HEAD' = O será excluído todas as versões posteriores do HEAD vinculado;
+    • git merge nome-branch-de-fusão = Fundi a branch atual com a referenciada;
 
 ### Repositório Remoto
 
