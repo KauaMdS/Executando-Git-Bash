@@ -88,7 +88,7 @@ Video explicativo: https://youtu.be/aT-CZ8opw60
     • git remote = Verifica se há um repositório remoto;
     • git remote add nome-repositório-remoto link-repositório-remoto = Adiciona um repositório remoto;
     • git remote -v = Exibe o link do repositório remoto conectado;
-    • git push -u nome-repositório-remoto master = Envia o repositório local para o remoto;
+    • git push -u nome-repositório-remoto nome-branch-master = Envia o repositório local para o remoto;
     • git pull = Receber atualizações do repositório remoto;
 
     • git clone = Clonar um repositório;
