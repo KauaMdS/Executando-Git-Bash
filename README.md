@@ -22,7 +22,7 @@ Video explicativo: https://youtu.be/aT-CZ8opw60
     •  ls ou ll = Mostra tudo que tem na pasta;
     •  cd referência = Acessa a pasta referenciada;
     •  cd = Volta até a pasta de usuário do pc;
-    •  cd ../ = Volta para a pasta anterior;
+    •  cd .. = Volta para a pasta anterior;
     •  ls -a = Mostra o diretório oculto de seu repositório;
 
 ### Criando Arquivos/pastas
