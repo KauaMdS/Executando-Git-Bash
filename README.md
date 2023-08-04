@@ -30,7 +30,7 @@ Video explicativo: https://youtu.be/aT-CZ8opw60
     •  git init = Transforma um diretório/pasta em repositório;
     •  git init nome-do-repositório = Cria um repositório;
     •  mkdir nome-do-diretório = Cria um diretório;
-    •  touch nome-e-tipo arquivo = Cria um arquivo da sua preferência;
+    •  touch nome-e-tipo-arquivo = Cria um arquivo da sua preferência;
     •  Para mover arquivos de outros lugares para o repositório, a maneira mais simples é usar o Explorador de Arquivos;
 
 ### Exibição
