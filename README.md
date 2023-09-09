@@ -8,9 +8,9 @@ Video explicativo: https://youtu.be/aT-CZ8opw60
 
 ### Primeiros Passos
 
-    •  git config --global user.name nome-do-autor;
-    •  git config --global user.email email-do-autor;
-    •  git config --global core.editor caminho-do-editor;
+    •  git config --global user.name "nome-do-autor";
+    •  git config --global user.email "email-do-autor";
+    •  git config --global core.editor "caminho-do-editor";
     •  git config user.name = Exibe o nome;
     •  git config user.email = Exibe o email;
     •  git config core.editor = Exibe o caminho do editor padrão;
@@ -23,7 +23,7 @@ Video explicativo: https://youtu.be/aT-CZ8opw60
     •  cd referência = Acessa a pasta referenciada;
     •  cd = Volta até a pasta de usuário do pc;
     •  cd .. = Volta para a pasta anterior;
-    •  ls -a = Mostra o diretório oculto de seu repositório;
+    •  ls -a = Mostra o diretório oculto do seu repositório;
 
 ### Criando Arquivos/pastas
 
@@ -59,7 +59,7 @@ Video explicativo: https://youtu.be/aT-CZ8opw60
 
 ### Commits
 
-    • git add = Adiciona ao container;
+    • git add = Adiciona ao "container";
     • git commit -m "comentário" = Adiciona ao diretório ".git";
     • git commit -am “comentário” = Faz um commit de um novo arquivo/alteração sem passar pelo “container”;
 
@@ -72,29 +72,34 @@ Video explicativo: https://youtu.be/aT-CZ8opw60
 
 ### Branch
 
-    • git branch = Mostra o branch em que se encontra;
     • git checkout -b nome-branch = Cria um Branch;
-    • git checkout nome-branch = Se desloca para o branch anexado;
-    • git merge nome-branch-de-fusão = Fundi a branch atual com a referenciada;
+    • git branch = Mostra o branch em que se encontra e outras branch's criadas;
+    • git checkout nome-branch = Se desloca para o branch desejado;
+    • git checkout hash-do-commit = Se desloca para o commit desejado;
+    
+### Merge
+
+    • git merge nome-branch-de-fusão = Fundi a branch atual com a branch referenciada;
 
 ### Revertendo
 
     • git reset HEAD = Retira todos os arquivos/mudanças postagens no “container”;
     • git checkout nome-arquivo = Retira mudanças no arquivo, com base no último commit feito, se essas alterações não estiverem no “container”;
-    • git reset --hard 'HEAD' = O será excluído todas as versões posteriores do HEAD vinculado;
+    • git reset --hard HEAD-desejado = Será excluído todas as versões posteriores do HEAD vinculado;
 
 ### Repositório Remoto
 
     • git remote = Verifica se há um repositório remoto;
     • git remote add nome-repositório-remoto link-repositório-remoto = Adiciona um repositório remoto;
     • git remote -v = Exibe o link do repositório remoto conectado;
-    • git push -u nome-repositório-remoto nome-branch-master = Envia o repositório local para o remoto;
+    
+    • git push -u nome-repositório-remoto nome-branch-master = Envia o repositório local para o repositório remoto;
     • git pull = Receber atualizações do repositório remoto;
 
-    • git clone = Clonar um repositório;
+    • git clone link-do-repositorio = Clonar um repositório;
 
 ### Comandos Auxiliares
-    • 'comando' --help = Mostra o que pode ser feito com o comando vinculado;
+    • comando-desejado --help = Mostra o que pode ser feito com o comando vinculado;
 
 ### Grafo de Commits
 
@@ -105,9 +110,11 @@ Video explicativo: https://youtu.be/aT-CZ8opw60
 
 ### Referências
 
-• Professor José de Assis - https://youtu.be/_mB-TShMDvY
+• Instalação do Git - https://git-scm.com/downloads
 
-• Git - https://git-scm.com/docs/git#Documentation/git.txt---help
+• Documentação do Git - https://git-scm.com/docs/git#Documentation/git.txt---help
+
+• Curso do 'Professor José de Assis' - https://www.youtube.com/watch?v=FF1f4bKYhoo&list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj&pp=iAQB
 
 • Stack Overflow - https://pt.stackoverflow.com/questions/528332/o-que-%C3%A9-head-no-git#:~:text=O%20HEAD%20no%20Git%20uma,ou%20a%20%C3%BAltima%20confirma%C3%A7%C3%A3o%20registrada.
 
